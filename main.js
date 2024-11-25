@@ -18,7 +18,7 @@ const getFacts = async () => {
     img.style.width = "300px";
     img.style.height = "auto";
 
-    document.querySelector(".container").appendChild(img);
+    document.querySelector(".container").append(img);
   } catch (err) {
     console.error("Error to fetch image of dogs", err);
   }
