@@ -17,6 +17,7 @@ const getFacts = async () => {
     img.alt = "Random Kutta";
     img.style.width = "300px";
     img.style.height = "auto";
+    img.style.borderRadius = "10px";
 
     document.querySelector(".container").append(img);
   } catch (err) {
